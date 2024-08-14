@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to UpSet Plots</title>
+</head>
+<body>
+    <h1>Introduction</h1>
+    <p>
+        For this study, you will see a text description generated for an UpSet plot. An UpSet plot is a set visualization technique similar to Venn diagrams, but unlike Venn diagrams, UpSet works for more than three sets.
+    </p>
+    <p>
+        Our research aims to <b>make data visualizations more accessible to people with visual impairments</b>. We want to understand whether text can convey similar amounts of information as a chart. We first will introduce what an UpSet plot is, and how to interpret data from the plot.
+    </p>
+
+    <h2>UpSet Explained</h2>
+    <p>
+        UpSet plots the intersections of sets in a table. Each column corresponds to a set. Bars at the top of the columns show the size of the sets. The row corresponds to an intersection: marks in the cells show which set is included in the intersection. The number of sets that participate in the intersection is referred to as <b>degree</b>. If there is no mark in any of the cells, then it is <b>the intersection of no set</b>, which is also referred to as <b>the empty intersection, with a degree of 0</b>. If there is a mark in every cell of a row, then it is <b>the intersection of all sets</b>.
+    </p>
+    <p>
+        UpSet plots the size of the intersections as bar charts to the right of the table. The table is also useful because it can be sorted in various ways. A common way is to sort by size, but it's also possible to sort by degree or sets.
+    </p>
+    <p>
+        Imagine an UpSet plot that shows movie data. Movies have genres like Drama, Comedy, Thriller, Mystery, or Crime. A movie can have a single genre, or it can have multiple genres. In this example, the genres are the sets. Some sets are bigger: there are more Drama movies than Mystery movies, for example. And some intersections will be more common: Thriller and Mystery might be a popular combination, while the combination of Drama, Comedy, and Thriller might be rare.
+    </p>
+
+    <h3>Glossary of Terms</h3>
+    <p>
+        Here are some terms we use in the text description:
+    </p>
+    <ul>
+        <li>Movies that don’t fall into any genre are an intersection of <b>no set</b>/<b>the empty intersection</b>.</li>
+        <li>A row with only one mark for drama (movies that are just dramas and have no other genre) is an <b>independent set intersection</b>.</li>
+        <li>A row with 2-3 marks like "Drama-Comedy" corresponds to a <b>low-degree set intersection</b>.</li>
+        <li>A row with 3-5 marks (e.g., Mystery-Crime-Thriller) corresponds to a <b>medium-degree set intersection</b>. A row with even more marks is a <b>high-order set intersection</b>.</li>
+        <li>The last case is that set containing all sets (i.e. all movie genres), which we call an <b>all-set intersection</b>.</li>
+    </ul>
+
+    <p>
+        That’s it for the introduction! Please stop now and ask the interviewers if you might have any clarifying questions.
+    </p>
+    
+    <p>
+        Next, we’ll explore text descriptions generated for a variety of UpSet Plots. Click on the link below to see:
+    </p>
+    <p>
+        <a href="index.html">UpSet Plot Description</a>
+    </p>
+</body>
+</html>
